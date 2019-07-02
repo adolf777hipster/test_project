@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.idea/
+logs/
+etc/
+media/
+src/
+env/
+eagle/local_settings.py
+etc/
+.ssh/
+uwsgi.ini
+static_root/
+documentation/
