@@ -18,7 +18,7 @@ class BasketPage(BasePage):
     def should_be_product_page_url(self):
         pattern = re.compile(
             r'http://selenium1py\.pythonanywhere\.com/.*/catalogue/the-shellcoders-handbook_209/\?promo=newYear')
-        assert pattern.match(self.browser.current_url)
+        assert pattern.match(self.browser.current_url), "Incorrect URL"
 
     def message_add_to_basket_present(self):
         assert self.is_element_present(*BasketPageLocators.MESSAGE_ADD_TO_BASKET), "Add message is not presented"
