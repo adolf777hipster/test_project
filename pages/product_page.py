@@ -7,7 +7,6 @@ from .locators import ProductPageLocators
 class ProductPage(BasePage):
     def should_be_product_page(self):
         self.should_be_product_page_url()
-        self.should_not_be_success_message()
         self.message_add_to_basket_present()
         self.comparison_book_name()
         self.comparison_price()
