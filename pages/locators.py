@@ -10,7 +10,7 @@ class LoginPageLocators(object):
     LOGIN_REGISTER = (By.ID, "register_form")
 
 
-class BasketPageLocators(object):
+class ProductPageLocators(object):
     ADD_TO_BASKET_BUTTON = (By.CLASS_NAME, "btn-add-to-basket")
     PRODUCT_PRICE = (By.CSS_SELECTOR, "p.price_color")
     PRODUCT_PRICE_IN_BASKET = (By.CSS_SELECTOR, "div.alertinner>:nth-child(1)>strong")
