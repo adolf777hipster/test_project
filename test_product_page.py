@@ -1,4 +1,4 @@
-from pages.cart_page import CartPage
+from .pages.cart_page import CartPage
 from .pages.product_page import ProductPage
 import pytest
 
