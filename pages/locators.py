@@ -8,6 +8,7 @@ class MainPageLocators(object):
 class LoginPageLocators(object):
     LOGIN_FORM = (By.ID, "login_form")
     LOGIN_REGISTER = (By.ID, "register_form")
+    REGISTER_BUTTON = (By.CSS_SELECTOR, "[name='registration_submit']")
 
 
 class ProductPageLocators(object):
@@ -24,3 +25,7 @@ class BasePageLocators(object):
     VIEW_BASKET = (By.CSS_SELECTOR, "span.btn-group")
     EMPTY_BASKET = (By.CSS_SELECTOR, "div p")
     BUTTON_PROCEED_TO_CHECKOUT = (By.CSS_SELECTOR, '[class="btn btn-lg btn-primary btn-block"]')
+    USER_ICON = (By.CSS_SELECTOR, ".icon-user")
+    EMAIL_ADDRESS = (By.CSS_SELECTOR, 'div [id="id_registration-email"]')
+    PASSWORD = (By.CSS_SELECTOR, 'div [id="id_registration-password1"]')
+    CONFIRM_PASSWORD = (By.CSS_SELECTOR, 'div [id="id_registration-password2"]')
